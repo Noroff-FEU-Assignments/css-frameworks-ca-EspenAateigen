@@ -1,0 +1,11 @@
+.btn__search {
+  background-color: getColour(primary); /* Green */
+  border: none;
+  color: getColour(white);
+  padding: 9px 25px;
+}
+
+input {
+  padding: 9px 20px;
+  border: none;
+}

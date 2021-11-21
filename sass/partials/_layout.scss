@@ -15,7 +15,6 @@ body {
     getColour(white),
     getColour(lightgrey)
   );
-  font-family: $font-primary;
   margin: 0;
 }
 
@@ -24,11 +23,52 @@ body {
 }
 
 .container {
-  max-width: 90%;
-  margin: 0 auto;
+  max-width: 1300px;
+  margin: 3em auto;
 }
 
 .container-flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.carouselImg {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.tvContainer {
+  border-radius: 25px;
+  display: flex;
+  max-width: 1300px;
+  height: 271px;
+  margin: auto;
+  background-color: getColour(white);
+}
+
+.tabImg {
+  margin: auto;
+  margin-left: 2em;
+  max-width: 238px;
+  height: auto;
+}
+
+.tabs {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.tabs__first,
+.tabs__second,
+.tabs__third {
+  margin-left: 1em;
+}
+
+.tabs--active {
+  background-color: white;
+  border-radius: 2px;
 }

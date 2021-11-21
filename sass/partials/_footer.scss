@@ -1,0 +1,13 @@
+footer {
+  background: getColour(white);
+  flex-shrink: 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-family: $font-secondary;
+  color: getColour(grey);
+  margin-top: 2em;
+
+  .footContainer {
+    @extend .container-flex;
+  }
+}

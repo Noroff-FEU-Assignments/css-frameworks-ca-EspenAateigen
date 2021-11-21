@@ -1,12 +1,18 @@
 nav {
   .container {
     @extend .container-flex;
-    margin-bottom: 2em;
   }
 
   .nav__link {
     color: getColour(secondary);
     font-family: $font-secondary;
+  }
+
+  .nav__link--active {
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
   }
 
   a {
@@ -16,13 +22,18 @@ nav {
   ul {
     list-style: none;
     display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 1.5em;
   }
 
   li {
-    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1em;
   }
 
   .title {
+    font-family: $font-primary;
     color: getColour(primary);
     font-size: 2em;
   }

@@ -1,3 +1,13 @@
+h1 {
+  color: getColour(primary);
+  font-family: $font-primary;
+}
+
 p {
   font-family: $font-secondary;
+  color: getColour(secondary);
+}
+
+.containerText {
+  margin: auto 2em;
 }
