@@ -1,0 +1,15 @@
+$font-primary: "Playfair display", sans-serif;
+$font-secondary: "lato", sans-serif;
+
+$colours: (
+  primary: #e92569,
+  secondary: #767676,
+  white: #ffffff,
+  lightgrey: #e5e5e5,
+  grey: #c7c7c7,
+  Black: #0a0a0a,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

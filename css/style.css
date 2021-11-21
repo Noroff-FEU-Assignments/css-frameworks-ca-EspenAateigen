@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: radial-gradient(circle at center, #ffffff, #e5e5e5);
+  font-family: "Playfair display", sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.container-flex, nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container {
+  margin-bottom: 2em;
+}
+
+nav .nav__link {
+  color: #767676;
+  font-family: "lato", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  margin-left: 1em;
+}
+
+nav .title {
+  color: #e92569;
+  font-size: 2em;
+}
+
+p {
+  font-family: "lato", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
