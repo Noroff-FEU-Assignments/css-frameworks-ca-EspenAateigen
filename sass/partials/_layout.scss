@@ -69,6 +69,6 @@ body {
 }
 
 .tabs--active {
-  background-color: white;
+  background-color: getColour(white);
   border-radius: 2px;
 }
